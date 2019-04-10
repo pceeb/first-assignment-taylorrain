@@ -8,20 +8,29 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*
-2. cp *.sh /tmp
-3. man pwd
-4. cd ~
-5. mkdir -p /test1/test2/test3 
-6. cp -r /tmp .
-7. ls | less
-8. head -n 24 test.txt » abc.txt
-9. echo "aaa" > aaa.txt
-10. ps -u sallesina
-11. top
-12. ls | grep .sh | xargs mv /tmp
+1. ls [A-Z]*                            list files with upper case characters
+2. cp *.sh /tmp                         copy multiple sources to directory
+3. man pwd                              help page for path command
+4. cd ~                                 takes you home
+5. mkdir -p /test1/test2/test3          makes directory test1 and test2 and
+                                        test 3 if they dont already exist
+6. cp -r /tmp .                         copy temporary files
+7. ls | less                            count how many files in root directory
+8. head -n 24 test.txt » abc.txt        shows first 24 lines of each file
+9. echo "aaa" > aaa.txt                 apprend a string to an existing file
+10. ps -u sallesina                     report snapshot by user sallesina
+11. top                                 display linux tasks
+12. ls | grep .sh | xargs mv /tmp	list, print lines matching .sh, build
+                                        and execute command lines from standard
+                                        input move rename source
+
 13. du -sk /home/* | sort -r -n | head -10
-14. sort -r names.txt
+                                        estimate file size summary in K,
+                                        summarize disk usage of each file
+                                        sort lines of text files backwards
+                                        according ot a numerical value
+                                        show the first 10 lines
+14. sort -r names.txt                   sort lines of text files on reverse
 
 **IMPORTANT** 
 To submit your answers you must do the following:
