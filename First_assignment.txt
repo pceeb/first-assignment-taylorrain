@@ -14,7 +14,7 @@ II. Answer the following question. What does this do?
 4. cd ~                                 takes you home #Correct!
 5. mkdir -p /test1/test2/test3          makes directory test1 and test2 and
                                         test 3 if they dont already exist #Correct!
-6. cp -r /tmp .                         copy temporary files #Correct!
+6. cp -r /tmp .                         copy temporary files #Correct! But what is -r doing ?????
 7. ls | less                            count how many files in root directory # But what is `less` doing ?
 8. head -n 24 test.txt » abc.txt        shows first 24 lines of each file # But what is `test.txt » abc.txt` doing???
 9. echo "aaa" > aaa.txt                 apprend a string to an existing file #Correct!
